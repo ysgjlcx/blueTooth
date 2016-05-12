@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
+        //改了一下下
             super.handleMessage(msg);
             loading.setVisibility(View.GONE);
         }
